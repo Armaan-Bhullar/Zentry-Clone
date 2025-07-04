@@ -23,6 +23,7 @@ const Hero = () => {
   };
 
   const handleVideoLoad = () => {
+    setIsLoading(false)
     setLoadedVideos((prev) => prev + 1);
   };
 
