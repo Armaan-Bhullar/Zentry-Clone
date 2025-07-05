@@ -8,7 +8,8 @@ import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
 
 const App = () => {
-  alert("Turn the sound on from the top right for best experience. This a clone")
+  alert("Turn the sound on from the top right for best experience. This a clone made for self development by developer Armaan.")
+  
   return (
     <main className='relative min-h-screen w-screen overflow-x-hidden'>
       <Navbar />
